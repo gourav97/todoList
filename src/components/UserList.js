@@ -11,7 +11,16 @@ export const UserList = () => {
   const { users, removeTask} = useContext(GlobalContext);
 
   return (
+    
     <ListGroup className="mt-4">
+      {
+        <div className="d-flex">
+          <div className='d-flex'>
+            Task
+          </div>
+          <div className="ml-auto">Action</div>
+        </div>     
+               }
       {users.length > 0 ? (
         <>
           {users.map(user => (

@@ -9,7 +9,7 @@ import {
 
 export const Heading = () => {
   return (
-    <Navbar color="dark" dark>
+    <Navbar color="light" light>
       <Container>
       <Nav>
           <NavItem>
